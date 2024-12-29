@@ -1,0 +1,16 @@
+.main-article{
+    width: 50%;
+    background-color: rgb(223, 223, 223);
+    margin: auto;
+    padding: 15px;
+}
+.table-history{
+border-collapse: collapse;
+}
+.table-history th{
+border: 1px solid grey;
+}
+.table-history td{
+    border: 1px solid grey;
+    padding: 6px;
+}
