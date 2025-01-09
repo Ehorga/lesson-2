@@ -4,6 +4,8 @@
 }
 body{
     font-size: 14px;
+    margin: 0;
+    background-image:url(./assets/img/Site-background-light.png)
 }
 .main-article{
     min-width: 720px;
