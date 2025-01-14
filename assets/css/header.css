@@ -8,9 +8,9 @@ padding-top: 90px;
 }
 .main-menu{
 list-style: none;
-
+text-align: center;
 }
-.mein-menu-item{
+.main-menu-item{
 display: inline-block;
 margin: 0 2em;
 position:relative ;
@@ -20,7 +20,7 @@ position:relative ;
 width: 45%;
 margin: auto
 }
-.mein-menu-item>a{
+.main-menu-item>a{
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
@@ -33,7 +33,7 @@ main{
     margin-top: -150px;
 }
 .submenu{
-display: non;
+display: none;
 width: 210%;
 list-style: none;
 padding: 7px;
@@ -43,7 +43,7 @@ top: 120%;
 position: absolute;
 
 }
-.submmenu-link{
+.submenu-link{
 display: block;
 text-transform: capitalize;
 padding: 5px 9px;
