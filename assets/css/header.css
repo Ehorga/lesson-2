@@ -1,9 +1,10 @@
 .main-header{
     background-color: rgb(127, 204, 255);
     height: 300px;
-background-image: url(./../img/Light_background_grass.png);
-background-repeat:repeat-x;
-background-position: 0 120px;
+background-image:url(./../img/Light_background_deepslate_transition.png), 
+url(./../img/Light_background_grass.png);
+background-repeat:repeat-x, repeat-x, no-repeat;
+background-position: bottom left,0 120px, 0 0;
 padding-top: 90px;
 }
 .main-menu{
@@ -25,6 +26,7 @@ margin: auto
     text-transform: uppercase;
     font-weight: bolder;
     text-decoration: none;
+    padding: 10px 0;
 }
 .main-menu-item>a:hover{
     text-decoration: underline;
@@ -50,7 +52,7 @@ padding: 5px 9px;
 color: black;
 }
 .submenu-item{
-
+position: relative;
 }
 .submmenu-link:hover{
     background-color: rgb(232, 233, 231);
@@ -58,4 +60,22 @@ color: black;
 }
 .main-menu-item:hover>.submenu{
     display: block;
+  }
+  .width-minecraft{
+    width: 150% ;
+    left: -30%;
+  }
+  .width-minecraft-dungeons{
+    width: 100%;
+    left:0;
+  }
+  .submenu-item:hover>.submenu{
+    display: block;
+    left: 100%;
+    top: 0%;
+  }
+  .submenu-item:hover>.submenu-link,
+  .submenu-link:hover{
+background-color:rgb(211, 233, 255);
+color: rgb(0, 84, 168)
   }
