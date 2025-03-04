@@ -146,4 +146,7 @@ main {
 }
 .link-wrapper {
   text-align: right;
+  width: 50%;
+  margin: auto;
+  min-width: 720px;
 }
